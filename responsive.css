@@ -11,6 +11,18 @@
   order: 10;
 }
 
+@media screen and (max-width: 500px) {
+  /* 
+    - at 500px and less the scores table forces horizontal scrolling to see the entire contents of the table 
+    - Don't see any columns that could be removed and have the scores make sense with the possible exception 
+      of the location of the game. Two teams should not be playing in two locations in the same week.
+      One exception would be baseball's World Series.
+  */
+  .scores__location {
+    display: none;  
+  }
+}
+
 @media screen and (max-width: 549px) {
   .header__logo {
     height: 48px;
