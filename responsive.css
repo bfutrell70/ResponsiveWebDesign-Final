@@ -53,7 +53,7 @@
   /* bg color = bg color under block */
   background: white;
 }
-/* BEGIN From http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/ */
+/* END From http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/ */
 
 @media screen and (max-width: 500px) {
   /* 
